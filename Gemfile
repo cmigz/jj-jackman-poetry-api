@@ -20,6 +20,8 @@ gem 'puma', '~> 3.7'
 gem 'bcrypt', '~> 3.1.7'
 # Use JWT for encoding/decoding tokens
 gem 'jwt'
+# Use simple commands instead of using private controller methods
+gem 'simple_command'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
