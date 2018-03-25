@@ -1,5 +1,6 @@
 class PoemsController < ApplicationController
   before_action :set_poem, only: [:show, :update, :destroy]
+  skip_before_action :authenticate_request, only: [:index]
 
   # GET /poems
   def index
